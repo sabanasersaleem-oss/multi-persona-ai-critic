@@ -1,0 +1,18 @@
+# 📚 Nexus Evaluation Standards
+
+This document defines the strict criteria (Grounding Data) that the Nexus Board personas use when evaluating user input.
+
+## 1. Security & Logic Standards (For Dr. Zero)
+* **OWASP Top 10:** For web-related code, check for Injection, Broken Auth, and Data Exposure.
+* **Fallacy Check:** Identify Ad Hominem, Strawman, or Slippery Slope arguments in text.
+* **Murphy's Law:** Assume that whatever can go wrong, will go wrong (Network failures, user errors).
+
+## 2. Innovation Standards (For Nova)
+* **The 10x Rule:** Does this idea improve the status quo by 10% or 10x? Prioritize 10x ideas.
+* **Blue Ocean Strategy:** Is the idea competing in a crowded market (Red Ocean) or creating a new one?
+* **Viral Mechanics:** Does the content have triggers for social sharing (Emotion, Practical Value, Story)?
+
+## 3. Structural Standards (For Atlas)
+* **PEP 8 (Python):** Strict adherence to Python style guides for indentation and naming.
+* **Clean Code Principles:** Functions should do one thing only (SRP). Variable names must be descriptive.
+* **Hemingway Rule:** For text, sentences must be short and devoid of unnecessary adverbs.

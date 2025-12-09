@@ -17,8 +17,8 @@ Most AI interactions are linear. This project utilizes **Multi-Persona Architect
 * **RAG / Grounding:** (Optional) Using a knowledge base for evaluation standards.
 
 ## 💻 How to Use
-1.  Copy the prompt from `system_prompt.md`.
-2.  Paste it into **Gemini Advanced** (Gem Manager) or OpenAI's **ChatGPT** (Custom Instructions).
+1. Write Your Promt.
+2.  Paste it into **Gemini Advanced** (Gem Manager) .
 3.  Feed it any text, code, or business idea.
 
 ## 📄 License

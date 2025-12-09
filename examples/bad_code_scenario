@@ -1,0 +1,22 @@
+
+# Example Scenario: Legacy Code Analysis
+
+**Input provided to the Nexus Board:**
+A snippet of Python code susceptible to SQL Injection and poor formatting.
+
+```python
+import os
+def get_user_data(id):
+    # connecting to db
+    c = connect("admin", "123456") 
+    q = "SELECT * FROM users WHERE id = " + id
+    return c.execute(q)
+
+print(get_user_data(input("Enter ID: ")))
+Expected Behavior:
+
+Dr. Zero should flag the SQL Injection (" + id) and hardcoded credentials ("123456").
+
+Nova should suggest modernizing this into a secure API endpoint.
+
+Atlas should critique the variable naming (c, q) and lack of error handling.
